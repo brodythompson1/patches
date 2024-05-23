@@ -40,10 +40,6 @@ The codebase is mainly built with following libraries:
 
 Please follow the instructions in [DATASET.md](DATASET.md) for data preparation.
 
-## 🔄 Pre-training
-
-The pre-training instruction is in [PRETRAIN.md](PRETRAIN.md).
-
 ## ⤴️ Fine-tuning with pre-trained models
 
 The fine-tuning instruction is in [FINETUNE.md](FINETUNE.md).
