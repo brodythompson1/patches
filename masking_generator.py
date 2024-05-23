@@ -2,7 +2,7 @@ import numpy as np
 
 class TubeMaskingGenerator:
     def __init__(self, input_size, mask_ratio):
-        self.frames, self.height, self.width = input_size
+        self.frames, self.height, self.width = input_size[0], 18, 18
         self.num_patches_per_frame =  324 ## Key change from VIDEOMAE AND PATCHES
         self.total_patches = self.frames * self.num_patches_per_frame 
         self.num_masks_per_frame = int(mask_ratio * self.num_patches_per_frame)
