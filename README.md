@@ -2,6 +2,7 @@
 
  - All credits for the majority of the implemented code go to the authors and creators of VideoMAE
  - PATCHES is an adaptation of the VideoMAE framework, we note that much of the code parrallels that of VideoMAE. Below is the citation for credit.
+ - Note here that the idea behind patches is that if we increase the number of patches that we will be able to not only increase the masking ratio, but also improve efficiency of the model during training while maintaining higher accuracies
  - `Zhan Tong and et al. Videomae: Masked autoencoders are data-efficient learners for self-supervised video
 pre-training. In Advances in neural information processing systems 35, 2022.`
  - [Link to the Original Paper](https://arxiv.org/pdf/2203.12602)
